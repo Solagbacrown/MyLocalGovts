@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>materialize</id>
+    <version>0.96.1</version>
+    <title>materialize</title>
+    <authors>Alvin Wang @Dogfalo</authors>
+    <owners>Alvin Wang @Dogfalo</owners>
+    <licenseUrl>https://github.com/Dogfalo/materialize/blob/master/LICENSE</licenseUrl>
+    <projectUrl>http://materializecss.com/</projectUrl>
+    <iconUrl>https://github.com/Dogfalo/materialize/blob/master/res/materialize.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Materialize, a CSS Framework based on Material Design 
+http://materializecss.com</description>
+    <summary>Materialize, a CSS Framework based on Material Design</summary>
+    <releaseNotes>v0.95.2 (Feb 10, 2015)
+Switches added
+Transition animation functions added
+ScrollFire Plugin added (fires functions dependent on scroll position)
+Responsive Video tag added
+Custom File Input Button added
+Modals has a fixed footer option
+SideNav implementation changed (needs 2 UL menus)
+Slider Responsive Fixes</releaseNotes>
+    <copyright />
+    <language>en-US</language>
+    <tags>materialize css design material meterialdesign</tags>
+    <dependencies>
+      <dependency id="jQuery" version="2.1.1" />
+    </dependencies>
+  </metadata>
+</package>

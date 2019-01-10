@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AlutaModelStoreContainer" CdmEntityContainer="AlutaEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="AlutaModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="AlutaModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="AlutaModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="AlutaModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="AlutaModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LGs">
+      <EntityTypeMapping TypeName="AlutaModel.LG">
+        <MappingFragment StoreEntitySet="LG">
+          <ScalarProperty Name="LGId" ColumnName="LGId" />
+          <ScalarProperty Name="StateNameId" ColumnName="StateNameId" />
+          <ScalarProperty Name="LGName" ColumnName="LGName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PetitionCategories">
+      <EntityTypeMapping TypeName="AlutaModel.PetitionCategory">
+        <MappingFragment StoreEntitySet="PetitionCategory">
+          <ScalarProperty Name="CategoryNameId" ColumnName="CategoryNameId" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="CategoryPic" ColumnName="CategoryPic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PetitionComplaints">
+      <EntityTypeMapping TypeName="AlutaModel.PetitionComplaint">
+        <MappingFragment StoreEntitySet="PetitionComplaint">
+          <ScalarProperty Name="ComplaintId" ColumnName="ComplaintId" />
+          <ScalarProperty Name="Complaint" ColumnName="Complaint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PetitionInfoes">
+      <EntityTypeMapping TypeName="AlutaModel.PetitionInfo">
+        <MappingFragment StoreEntitySet="PetitionInfo">
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+          <ScalarProperty Name="PetitionId" ColumnName="PetitionId" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="StateId" ColumnName="StateId" />
+          <ScalarProperty Name="ToWhom" ColumnName="ToWhom" />
+          <ScalarProperty Name="WhySign" ColumnName="WhySign" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="NameOfFile" ColumnName="NameOfFile" />
+          <ScalarProperty Name="ComplaintId" ColumnName="ComplaintId" />
+          <ScalarProperty Name="PetDate" ColumnName="PetDate" />
+          <ScalarProperty Name="Approval" ColumnName="Approval" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="LGId" ColumnName="LGId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PetitionSignatures">
+      <EntityTypeMapping TypeName="AlutaModel.PetitionSignature">
+        <MappingFragment StoreEntitySet="PetitionSignatures">
+          <ScalarProperty Name="SignId" ColumnName="SignId" />
+          <ScalarProperty Name="SignFirstName" ColumnName="SignFirstName" />
+          <ScalarProperty Name="SignLastName" ColumnName="SignLastName" />
+          <ScalarProperty Name="SignEmail" ColumnName="SignEmail" />
+          <ScalarProperty Name="SignAdd" ColumnName="SignAdd" />
+          <ScalarProperty Name="SignCountry" ColumnName="SignCountry" />
+          <ScalarProperty Name="SignState" ColumnName="SignState" />
+          <ScalarProperty Name="SignCity" ColumnName="SignCity" />
+          <ScalarProperty Name="SignWord" ColumnName="SignWord" />
+          <ScalarProperty Name="PetitionId" ColumnName="PetitionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posts">
+      <EntityTypeMapping TypeName="AlutaModel.Post">
+        <MappingFragment StoreEntitySet="Posts">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Post1" ColumnName="Post" />
+          <ScalarProperty Name="Likes" ColumnName="Likes" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="States">
+      <EntityTypeMapping TypeName="AlutaModel.State">
+        <MappingFragment StoreEntitySet="State">
+          <ScalarProperty Name="StateNameId" ColumnName="StateNameId" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsersInfoes">
+      <EntityTypeMapping TypeName="AlutaModel.UsersInfo">
+        <MappingFragment StoreEntitySet="UsersInfo">
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="AlutaModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <EntitySetMapping Name="Schools">
+      <EntityTypeMapping TypeName="AlutaModel.School">
+        <MappingFragment StoreEntitySet="School">
+          <ScalarProperty Name="SchoolName" ColumnName="SchoolName" />
+          <ScalarProperty Name="SchoolId" ColumnName="SchoolId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
