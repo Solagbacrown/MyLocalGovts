@@ -189,10 +189,10 @@ namespace MyLocalGovt.Controllers
             string MessageFrom = string.Format("Dear Customer, You have sucessfully created your petition with Title: {0} to {1}:<br/>", model.Title, model.ToWhom);
 
             var myMessage = new MailMessage();
-            myMessage.To.Add(new MailAddress("ayodeleenitilo@yahoo.com"));  // replace with valid value 
-           // myMessage.Bcc.Add(new MailAddress("ayodeleeenitilo@gmail.com"));
+            myMessage.To.Add(new MailAddress("X@x.com"));  // replace with valid value 
+           // myMessage.Bcc.Add(new MailAddress("model.email"));
            // myMessage.Bcc.Add(new MailAddress(model.Email));
-            myMessage.From = new MailAddress("festusoluyide@gmail.com");  // replace with valid value
+            myMessage.From = new MailAddress("ee@gmail.com");  // replace with valid value
             myMessage.Subject = "Petition Created!";
             myMessage.Body = MessageFrom;
 
