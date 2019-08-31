@@ -202,8 +202,8 @@ namespace MyLocalGovt.Controllers
             {
                 var credential = new NetworkCredential
                 {
-                    UserName = "festusoluyide@gmail.com",  // replace with valid value
-                    Password = "7343good"  // replace with valid value
+                    UserName = "xxxxx@gmail.com",  // replace with valid value
+                    Password = "xxxxx"  // replace with valid value
                 };
                 smtp.Credentials = credential;
                 smtp.Host = "smtp.gmail.com";
